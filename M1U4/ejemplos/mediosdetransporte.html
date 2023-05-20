@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>¿Qué medio de transporte uso?</title>
+</head>
+
+<body>
+
+  <script>
+    const distancia = prompt('Ingrese distancia en metros')
+  if(distancia>0 && distancia <= 1000){document.write('Andá caminando')}
+  if(distancia> 1000 && distancia <= 10000) {document.write('Andá en bicleta')}
+  if (distancia> 10000 && distancia <= 30000) {document.write('Usá el colectivo')}
+  if (distancia> 30000 && distancia <= 100000) {document.write('Conviene ir en auto')}
+  else if (distancia>100000) {document.write('Usá avión')}
+</script>
+  
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+<body>
+   
+<button class="Rosa" onclick="cambiarFondoDocumento1()"> Cuadrado rosa</button>
+<button class="Amarillo" onclick="cambiarFondoDocumento2()">Cuadrado Amarillo</button>
+<button class="Verde" onclick="cambiarFondoDocumento3()">Cuadrado Verde</button>
+
+
+<script>
+function cambiarFondoDocumento1() {
+    let body = document.getElementsByTagName('body')[0];
+    body.style.backgroundColor ='#ffc0cb'
+}
+
+function cambiarFondoDocumento2() {
+    let body = document.getElementsByTagName('body')[0];
+    body.style.backgroundColor ='#ffff00'
+}
+
+function cambiarFondoDocumento3() {
+    let body = document.getElementsByTagName('body')[0];
+    body.style.backgroundColor ='#008000'
+}
+</script>
+
+</body>
+</html>

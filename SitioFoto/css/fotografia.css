@@ -72,5 +72,9 @@ h1,h2 {font-family: 'Ysabeau SC', sans-serif}
 .mapa iframe {
     width: 100%;
     aspect-ratio: 1.2;
-    
+
+}
+
+.html {
+    scroll-behavior: smooth;
 }

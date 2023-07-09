@@ -78,3 +78,8 @@ h1,h2 {font-family: 'Ysabeau SC', sans-serif}
 .html {
     scroll-behavior: smooth;
 }
+
+.scroll_section {
+    scroll-margin-top: 200px;
+}
+

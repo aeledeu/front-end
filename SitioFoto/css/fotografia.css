@@ -64,3 +64,13 @@ h1,h2 {font-family: 'Ysabeau SC', sans-serif}
     text-align: center;
     padding: 50px 20px;
 }
+
+.staff {
+    background: #efefef ;
+}
+
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.2;
+    
+}
